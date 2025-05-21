@@ -1,0 +1,139 @@
+/* make flex layout stack */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+/* remove bullets */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    
+}
+
+/* remove line */
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+/* header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+    align-items: center;
+    background: #1F2937;
+    color:#E5E7EB
+}
+
+.bold {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+/* other header container */
+.top2 {
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    padding: 40px 48px 50px 48px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.description {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+/* button */
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-color: white;
+}
+
+/* middle */
+
+.middletitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+
+}
+
+/* footer */
+.blue {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background: #3882F6;
+    gap: 36px;
+    color: #E5E7EB;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 16px 48px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+} 
+
+.top2, .middle, .footer {
+    flex: 1;
+}
